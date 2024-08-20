@@ -162,10 +162,10 @@
   </header>
 
   <!--Main Section-->
-  <main class="flex flex-col ">
+  <main class="flex flex-col md:felx-row space-y-20">
     <!--Leatest News-->
     <div class="container mx-auto">
-      <h1 class="text-3xl md:text-4xl lg:text-6xl text-center py-4">Leatest News</h1>
+      <h1 class="text-3xl font-medium md:text-4xl lg:text-6xl text-center leading-relaxed py-4 mt-6">Leatest News</h1>
 
       <!--New card-->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center items-baseline space-y-8">
@@ -178,7 +178,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
               lectus at.</p>
             <div class="card-actions justify-start">
-              <button class="btn btn-primary">Read More</button>
+              <button class="p-2 md:px-4 rounded-md bg-bg-btn text-white w-28 md:w-32">Read More</button>
             </div>
           </div>
         </div>
@@ -191,7 +191,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
               lectus at.</p>
             <div class="card-actions justify-start">
-              <button class="btn btn-primary">Read More</button>
+              <button class="p-2 md:px-4 rounded-md bg-bg-btn text-white w-28 md:w-32">Read More</button>
             </div>
           </div>
         </div>
@@ -204,7 +204,65 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
               lectus at.</p>
             <div class="card-actions justify-start">
-              <button class="btn btn-primary">Read More</button>
+              <button class="p-2 md:px-4 rounded-md bg-bg-btn text-white w-28 md:w-32">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FAQs-->
+    <div class="flex flex-col  space-y-6 justify-between">
+      <h1 class="text-center font-semibold text-4xl md:text-5xl lg:text-6xl">Frequently Asked <span
+          class="text-bg-banner">Questions</span></h1>
+      <div class="flex flex-col md:flex-row">
+        <!--Image-->
+        <div class="">
+          <img src="./images/others/faq.png" alt="FAQs" class="p-10">
+        </div>
+        <!--Faqs Question-->
+        <div class=" space-y-4 md:w-3/6 flex flex-col justify-center">
+          <div class="collapse bg-base-200">
+            <input type="radio" name="my-accordion-1" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What are the most important things I should
+              know about riding a bike?</div>
+            <div class="collapse-content">
+              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                mindset of
+                “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally
+                compliant bike rider.</p>
+            </div>
+          </div>
+          <div class="collapse bg-base-200">
+            <input type="radio" name="my-accordion-1" />
+            <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a
+              new one?</div>
+            <div class="collapse-content">
+              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                mindset of
+                “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally
+                compliant bike rider.</p>
+            </div>
+          </div>
+          <div class="collapse bg-base-200">
+            <input type="radio" name="my-accordion-1" />
+            <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+            <div class="collapse-content">
+              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                mindset of
+                “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally
+                compliant bike rider.</p>
+            </div>
+          </div>
+          <div class="collapse bg-base-200">
+            <input type="radio" name="my-accordion-1" />
+            <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+            <div class="collapse-content">
+              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                mindset of
+                “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally
+                compliant bike
+                rider.</p>
             </div>
           </div>
         </div>
