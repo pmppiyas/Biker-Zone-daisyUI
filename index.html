@@ -73,10 +73,10 @@
     </nav>
 
     <!--Slider Carousel-->
-    <div class="carousel w-full md:h-[500px] lg:h-[550px]">
-      <div id="slide1" class="carousel-item relative w-full bg-banner px-4">
+    <div class="carousel w-full md:h-[500px] lg:h-[550px] ">
+      <div id="slide1" class="carousel-item relative w-full bg-banner ">
         <div class="grid md:grid-cols-2 grid-cols-1">
-          <div class="md:flex justify-center flex-col space-y-4 lg:space-y-6">
+          <div class="md:flex justify-center flex-col space-y-4 lg:space-y-6 ">
             <p class="text-lg md:pt-4">Computer-controlled digital transistorized with electronic advance.</p>
             <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold">Honda CBR 300R</h1>
             <p class="text-xl leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -95,7 +95,7 @@
           <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide2" class="carousel-item relative w-full bg-banner px-4">
+      <div id="slide2" class="carousel-item relative w-full bg-banner">
         <div class="grid md:grid-cols-2 grid-cols-1">
           <div class="md:flex justify-center flex-col space-y-4 lg:space-y-6">
             <p class="text-lg md:pt-4">Computer-controlled digital transistorized with electronic advance.</p>
@@ -116,7 +116,7 @@
           <a href="#slide3" class="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide3" class="carousel-item relative w-full bg-banner px-4">
+      <div id="slide3" class="carousel-item relative w-full bg-banner ">
         <div class="grid md:grid-cols-2 grid-cols-1">
           <div class="md:flex justify-center flex-col space-y-4 lg:space-y-6">
             <p class="text-lg md:pt-4">Computer-controlled digital transistorized with electronic advance.</p>
@@ -137,7 +137,7 @@
           <a href="#slide4" class="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide4" class="carousel-item relative w-full bg-banner px-4">
+      <div id="slide4" class="carousel-item relative w-full bg-banner ">
         <div class="grid md:grid-cols-2 grid-cols-1">
           <div class="md:flex justify-center flex-col space-y-4 lg:space-y-6">
             <p class="text-lg md:pt-4">Computer-controlled digital transistorized with electronic advance.</p>
@@ -162,8 +162,54 @@
   </header>
 
   <!--Main Section-->
-  <main>
+  <main class="flex flex-col ">
+    <!--Leatest News-->
+    <div class="container mx-auto">
+      <h1 class="text-3xl md:text-4xl lg:text-6xl text-center py-4">Leatest News</h1>
 
+      <!--New card-->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center items-baseline space-y-8">
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img src="./images/others/latest1.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-2xl">Ducati XDIAVEL S-73</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus at.</p>
+            <div class="card-actions justify-start">
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img src="./images/others/latest2.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-2xl">Motorcycles & Scooters</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus at.</p>
+            <div class="card-actions justify-start">
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img src="./images/others/latest3.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-2xl">2021 Honda CBR500R</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus at.</p>
+            <div class="card-actions justify-start">
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <!--Footer Section-->
